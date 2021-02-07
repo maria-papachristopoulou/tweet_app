@@ -5,10 +5,10 @@ const bodyParser = require('body-parser');
 const twit = require('twit');
 
 const T = new twit({
-    consumer_key:         'EyAE2doCANBuvNg3ONdAlKD3I',
-    consumer_secret:      'p8eVeyaKam1ZaLvlRCqZ1lytEqhZWFVagSnzpdkyHugZQ7r8V8',
-    access_token:         '1350162848236920843-tCXCewbbGCHWptw6THYvXXvOnGnGId',
-    access_token_secret:  'Vfs5Q2RT7R588pkBPdI2pnDl4zgcVHityvA0sQZmXWJhu',
+    consumer_key:         '...', // consumer key
+    consumer_secret:      '...', // consumer secret
+    access_token:         '', // access token
+    access_token_secret:  '...', //access token secret
     timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
